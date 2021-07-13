@@ -1,7 +1,6 @@
 from deck import Deck
 from player import Player
 
-
 class Blackjack:
     def __init__(self):
         self.deck = Deck()
@@ -16,7 +15,7 @@ class Blackjack:
         self.player.show()
 
         if p_status == 1:
-            print("Player got Blackjack! Congratulations! Woot Woot!!!")
+            print("Player got Blackjack! Congrats!")
             if d_status == 1:
                 print("Dealer and Player got Blackjack! It's a push. (Tie)")
             return 1
@@ -30,27 +29,27 @@ class Blackjack:
                 bust = self.player.hit()
                 self.player.show()
             if bust == 1:
-                print("Player busted. Loser:( ")
+                print("Player busted. LOSER!!!")
                 return 1
         print("\n")
         self.dealer.show()
         if d_status == 1:
-            print("Dealer got Blackjack! Better luck next time!")
+            print("Dealer got Blackjack! You Suck!!")
             return 1
 
-        while self.dealer.check_score() > 17:
+        while self.dealer.check_score() < 17:
             if self.dealer.hit() == 1:
                 self.dealer.show()
-                print("Dealer busted. Congrats Winner!!!")
+                print("Dealer busted. Congrats! Woot Woot!!!")
                 return 1
             self.dealer.show()
 
         if self.dealer.check_score() == self.player.check_score():
             print("It's a Push (Tie). Better luck next time!")
         elif self.dealer.check_score() > self.player.check_score():
-            print("Dealer wins. You suck!")
-        elif self.dealer.check_score() > self.player.check_score():
-            print("Player wins. Congratulations! Woot Woot!!!")
+            print("Dealer wins. Ughhh > Good Game!")
+        elif self.dealer.check_score() < self.player.check_score():
+            print("Player wins. Congratulations!")
 
-    b = Blackjack()
-    b.play()
+b = Blackjack()
+b.play()
