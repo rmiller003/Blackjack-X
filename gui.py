@@ -18,7 +18,7 @@ class BlackjackGUI:
         self.background_image = tk.PhotoImage(file="background/casino.png")
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_image)
 
-        self.title_label = tk.Label(self.canvas, text="Welcome to Miller's Casino", font=("Edwardian Script ITC", 50), fg="white")
+        self.title_label = tk.Label(self.canvas, text="Welcome to Miller's Casino", font=("Edwardian Script ITC", 50))
         self.canvas.create_window(512, 50, window=self.title_label)
 
         self.blackjack_game = Blackjack()
