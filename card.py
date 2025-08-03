@@ -1,5 +1,5 @@
 import tkinter as tk
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageFilter
 
 class Card:
     def __init__(self, value, suit):
@@ -19,7 +19,7 @@ class Card:
 
     def get_image(self):
         image = Image.open(self.image_path)
-        image = image.resize((100, 150), Image.ANTIALIAS)
+        image = image.resize((100, 150), Image.Resampling.LANCZOS)
         return ImageTk.PhotoImage(image)
 
     def show(self, master):
