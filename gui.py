@@ -7,13 +7,13 @@ class BlackjackGUI:
     def __init__(self, master):
         self.master = master
         self.master.title("Blackjack")
-        self.master.geometry("800x600")
+        self.master.geometry("1024x768")
 
         pygame.mixer.init()
         pygame.mixer.music.load("music/jazz.mp3")
         pygame.mixer.music.play(loops=-1)
 
-        self.canvas = tk.Canvas(master, width=800, height=600)
+        self.canvas = tk.Canvas(master, width=1024, height=768)
         self.canvas.pack()
         self.background_image = tk.PhotoImage(file="background/casino.png")
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_image)
@@ -21,21 +21,21 @@ class BlackjackGUI:
         self.blackjack_game = Blackjack()
 
         self.dealer_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
-        self.canvas.create_window(400, 100, window=self.dealer_frame)
+        self.canvas.create_window(512, 150, window=self.dealer_frame)
         self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", fg="white", bg="darkgreen")
         self.dealer_label.pack()
         self.dealer_cards_frame = tk.Frame(self.dealer_frame, bg="darkgreen")
         self.dealer_cards_frame.pack()
 
         self.player_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
-        self.canvas.create_window(400, 300, window=self.player_frame)
+        self.canvas.create_window(512, 450, window=self.player_frame)
         self.player_label = tk.Label(self.player_frame, text="Player's Hand:", fg="white", bg="darkgreen")
         self.player_label.pack()
         self.player_cards_frame = tk.Frame(self.player_frame, bg="darkgreen")
         self.player_cards_frame.pack()
 
         self.buttons_frame = tk.Frame(self.canvas, bg="darkgreen")
-        self.canvas.create_window(400, 500, window=self.buttons_frame)
+        self.canvas.create_window(512, 650, window=self.buttons_frame)
 
         self.hit_button = tk.Button(self.buttons_frame, text="Hit", command=self.hit)
         self.hit_button.pack(side=tk.LEFT)
