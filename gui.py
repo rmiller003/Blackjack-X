@@ -77,12 +77,10 @@ class BlackjackGUI:
         self.hit_button.config(state=tk.DISABLED)
         self.stand_button.config(state=tk.DISABLED)
 
-        d_status = self.blackjack_game.dealer.deal()
         self.update_ui()
 
-        if d_status == 1:
-            messagebox.showinfo("Blackjack", "Dealer got Blackjack!")
-            self.end_game()
+        if self.blackjack_game.dealer.check_score() == 21:
+            self.determine_winner()
             return
 
         while self.blackjack_game.dealer.check_score() < 17:
