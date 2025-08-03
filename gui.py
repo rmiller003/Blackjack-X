@@ -22,6 +22,15 @@ class BlackjackGUI:
         self.canvas.create_window(512, 50, window=self.title_label)
 
         self.blackjack_game = Blackjack()
+        self.player_wins = 0
+        self.dealer_wins = 0
+
+        self.log_frame = tk.Frame(self.canvas, pady=10, bg="saddle brown")
+        self.canvas.create_window(150, 350, window=self.log_frame)
+        self.player_wins_label = tk.Label(self.log_frame, text="", fg="white", bg="saddle brown")
+        self.player_wins_label.pack()
+        self.dealer_wins_label = tk.Label(self.log_frame, text="", fg="white", bg="saddle brown")
+        self.dealer_wins_label.pack()
 
         self.dealer_frame = tk.Frame(self.canvas, pady=10, bg="saddle brown")
         self.canvas.create_window(512, 250, window=self.dealer_frame)
@@ -50,7 +59,12 @@ class BlackjackGUI:
         self.play_again_button.pack(side=tk.LEFT)
         self.play_again_button.config(state=tk.DISABLED)
 
+        self.update_log_display()
         self.start_game()
+
+    def update_log_display(self):
+        self.player_wins_label.config(text=f"Player Wins: {self.player_wins}")
+        self.dealer_wins_label.config(text=f"Dealer Wins: {self.dealer_wins}")
 
     def start_game(self):
         self.blackjack_game.player.deal()
@@ -77,6 +91,7 @@ class BlackjackGUI:
         if self.blackjack_game.player.hit() == 1:
             self.update_ui()
             messagebox.showinfo("Bust", "You busted!")
+            self.dealer_wins += 1
             self.end_game()
         else:
             self.update_ui()
@@ -95,6 +110,7 @@ class BlackjackGUI:
             if self.blackjack_game.dealer.hit() == 1:
                 self.update_ui()
                 messagebox.showinfo("Winner", "Dealer busted! You win!")
+                self.player_wins += 1
                 self.end_game()
                 return
             self.update_ui()
@@ -107,8 +123,10 @@ class BlackjackGUI:
 
         if player_score > dealer_score:
             messagebox.showinfo("Winner", "You win!")
+            self.player_wins += 1
         elif player_score < dealer_score:
             messagebox.showinfo("Loser", "Dealer wins!")
+            self.dealer_wins += 1
         else:
             messagebox.showinfo("Push", "It's a tie!")
 
@@ -118,6 +136,7 @@ class BlackjackGUI:
         self.hit_button.config(state=tk.DISABLED)
         self.stand_button.config(state=tk.DISABLED)
         self.play_again_button.config(state=tk.NORMAL)
+        self.update_log_display()
 
     def play_again(self):
         self.blackjack_game = Blackjack()
