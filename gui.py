@@ -88,7 +88,7 @@ class BlackjackGUI:
         while self.blackjack_game.dealer.check_score() < 17:
             if self.blackjack_game.dealer.hit() == 1:
                 self.update_ui()
-                messagebox.showinfo("Bust", "Dealer busted!")
+                messagebox.showinfo("Winner", "Dealer busted! You win!")
                 self.end_game()
                 return
             self.update_ui()
