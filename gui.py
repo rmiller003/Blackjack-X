@@ -14,21 +14,21 @@ class BlackjackGUI:
 
         self.blackjack_game = Blackjack()
 
-        self.dealer_frame = tk.Frame(self.master, pady=10, bg="darkgreen")
+        self.dealer_frame = tk.Frame(self.master, pady=10, highlightthickness=0, borderwidth=0)
         self.dealer_frame.pack(side=tk.TOP, fill=tk.X)
-        self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", bg="darkgreen", fg="white")
+        self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", fg="white", bg="darkgreen")
         self.dealer_label.pack()
-        self.dealer_cards_frame = tk.Frame(self.dealer_frame, bg="darkgreen")
+        self.dealer_cards_frame = tk.Frame(self.dealer_frame, highlightthickness=0, borderwidth=0, bg="darkgreen")
         self.dealer_cards_frame.pack()
 
-        self.player_frame = tk.Frame(self.master, pady=10, bg="darkgreen")
+        self.player_frame = tk.Frame(self.master, pady=10, highlightthickness=0, borderwidth=0)
         self.player_frame.pack(side=tk.TOP, fill=tk.X)
-        self.player_label = tk.Label(self.player_frame, text="Player's Hand:", bg="darkgreen", fg="white")
+        self.player_label = tk.Label(self.player_frame, text="Player's Hand:", fg="white", bg="darkgreen")
         self.player_label.pack()
-        self.player_cards_frame = tk.Frame(self.player_frame, bg="darkgreen")
+        self.player_cards_frame = tk.Frame(self.player_frame, highlightthickness=0, borderwidth=0, bg="darkgreen")
         self.player_cards_frame.pack()
 
-        self.buttons_frame = tk.Frame(self.master, bg="darkgreen")
+        self.buttons_frame = tk.Frame(self.master, highlightthickness=0, borderwidth=0)
         self.buttons_frame.pack(side=tk.BOTTOM, pady=10)
 
         self.hit_button = tk.Button(self.buttons_frame, text="Hit", command=self.hit)
