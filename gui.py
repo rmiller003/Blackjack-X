@@ -18,10 +18,13 @@ class BlackjackGUI:
         self.background_image = tk.PhotoImage(file="background/casino.png")
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_image)
 
+        self.title_label = tk.Label(self.canvas, text="Welcome to Miller's Casino", font=("Arial", 40), fg="white", bg="darkgreen")
+        self.canvas.create_window(512, 50, window=self.title_label)
+
         self.blackjack_game = Blackjack()
 
         self.dealer_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
-        self.canvas.create_window(512, 150, window=self.dealer_frame)
+        self.canvas.create_window(512, 250, window=self.dealer_frame)
         self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", fg="white", bg="darkgreen")
         self.dealer_label.pack()
         self.dealer_cards_frame = tk.Frame(self.dealer_frame, bg="darkgreen")
