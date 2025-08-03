@@ -25,19 +25,19 @@ class BlackjackGUI:
 
         self.dealer_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
         self.canvas.create_window(512, 250, window=self.dealer_frame)
-        self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", fg="white", bg="darkgreen")
+        self.dealer_label = tk.Label(self.dealer_frame, text="Dealer's Hand:", fg="white", bg="brown")
         self.dealer_label.pack()
         self.dealer_cards_frame = tk.Frame(self.dealer_frame, bg="darkgreen")
         self.dealer_cards_frame.pack()
 
         self.player_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
         self.canvas.create_window(512, 450, window=self.player_frame)
-        self.player_label = tk.Label(self.player_frame, text="Player's Hand:", fg="white", bg="darkgreen")
+        self.player_label = tk.Label(self.player_frame, text="Player's Hand:", fg="white", bg="brown")
         self.player_label.pack()
-        self.player_cards_frame = tk.Frame(self.player_frame, bg="darkgreen")
+        self.player_cards_frame = tk.Frame(self.player_frame, bg="brown")
         self.player_cards_frame.pack()
 
-        self.buttons_frame = tk.Frame(self.canvas, bg="darkgreen")
+        self.buttons_frame = tk.Frame(self.canvas, bg="brown")
         self.canvas.create_window(512, 650, window=self.buttons_frame)
 
         self.hit_button = tk.Button(self.buttons_frame, text="Hit", command=self.hit)
