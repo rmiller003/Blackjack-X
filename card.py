@@ -19,7 +19,7 @@ class Card:
 
     def get_image(self):
         image = Image.open(self.image_path)
-        image = image.resize((100, 150), Image.Resampling.LANCZOS)
+        image = image.resize((150, 225), Image.Resampling.LANCZOS)
         return ImageTk.PhotoImage(image)
 
     def show(self, master):
