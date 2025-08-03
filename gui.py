@@ -1,12 +1,17 @@
 import tkinter as tk
 from tkinter import messagebox
 from blackjack import Blackjack
+import pygame
 
 class BlackjackGUI:
     def __init__(self, master):
         self.master = master
         self.master.title("Blackjack")
         self.master.geometry("800x600")
+
+        pygame.mixer.init()
+        pygame.mixer.music.load("music/jazz.mp3")
+        pygame.mixer.music.play(loops=-1)
 
         self.canvas = tk.Canvas(master, width=800, height=600)
         self.canvas.pack()
