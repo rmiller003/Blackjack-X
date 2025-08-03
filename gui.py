@@ -30,7 +30,7 @@ class BlackjackGUI:
         self.dealer_cards_frame = tk.Frame(self.dealer_frame, bg="saddle brown")
         self.dealer_cards_frame.pack()
 
-        self.player_frame = tk.Frame(self.canvas, pady=10, bg="darkgreen")
+        self.player_frame = tk.Frame(self.canvas, pady=10, bg="saddle brown")
         self.canvas.create_window(512, 450, window=self.player_frame)
         self.player_label = tk.Label(self.player_frame, text="Player's Hand:", fg="white", bg="saddle brown")
         self.player_label.pack()
