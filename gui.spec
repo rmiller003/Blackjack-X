@@ -5,7 +5,7 @@ a = Analysis(
     ['gui.py'],
     pathex=[],
     binaries=[],
-    datas=[('music\\jazz.ogg', 'music'), ('music\\fail.ogg', 'music'), ('music\\cash-register.ogg', 'music')],
+    datas=[('music\\jazz.ogg', 'music'), ('music\\fail.ogg', 'music'), ('music\\cash-register.ogg', 'music'), ('background\\casino.png', 'background')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

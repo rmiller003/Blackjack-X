@@ -14,6 +14,9 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
+# Load background image using absolute path
+image_path = resource_path("background/casino.png")
+self.background_image = tk.PhotoImage(file=image_path)
 
 class BlackjackGUI:
     def __init__(self, master):
@@ -30,7 +33,7 @@ class BlackjackGUI:
 
         self.canvas = tk.Canvas(master, width=1024, height=768)
         self.canvas.pack()
-        self.background_image = tk.PhotoImage(file="background/casino.png")
+        #self.background_image = tk.PhotoImage(file="background/casino.png")
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_image)
 
         self.title_label = tk.Label(self.canvas, text="Welcome to Miller's Casino", font=("Edwardian Script ITC", 46), fg="white", bg="saddle brown")
