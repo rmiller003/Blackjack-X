@@ -13,6 +13,7 @@ class BlackjackGUI:
         pygame.mixer.music.load("music/jazz.ogg")
         pygame.mixer.music.play(loops=-1)
         self.win_sound = pygame.mixer.Sound("music/cash-register.ogg")
+        self.fail_sound = pygame.mixer.Sound("music/fail.ogg")
 
         self.canvas = tk.Canvas(master, width=1024, height=768)
         self.canvas.pack()
@@ -135,6 +136,7 @@ class BlackjackGUI:
             self.update_ui()
             messagebox.showinfo("Bust", "You busted!")
             self.dealer_wins += 1
+            self.fail_sound.play()
             self.end_game()
         else:
             self.update_ui()
@@ -174,6 +176,7 @@ class BlackjackGUI:
         elif player_score < dealer_score:
             messagebox.showinfo("Loser", "Dealer wins!")
             self.dealer_wins += 1
+            self.fail_sound.play()
         else:
             messagebox.showinfo("Push", "It's a tie!")
             self.player_money += self.current_bet
