@@ -25,7 +25,7 @@ class BlackjackGUI:
         self.blackjack_game = Blackjack()
         self.player_wins = 0
         self.dealer_wins = 0
-        self.player_money = 50
+        self.player_money = 100
         self.current_bet = 10
 
         self.log_frame = tk.Frame(self.canvas, pady=10, bg="saddle brown")
@@ -74,6 +74,9 @@ class BlackjackGUI:
         self.play_again_button = tk.Button(self.buttons_frame, text="Play Again", command=self.play_again)
         self.play_again_button.pack(side=tk.LEFT)
         self.play_again_button.config(state=tk.DISABLED)
+
+        self.new_game_button = tk.Button(self.buttons_frame, text="New Game", command=self.new_game, state=tk.DISABLED)
+        self.new_game_button.pack(side=tk.LEFT)
 
         self.update_log_display()
         self.update_betting_ui()
@@ -191,6 +194,7 @@ class BlackjackGUI:
             self.increase_bet_button.config(state=tk.DISABLED)
             self.decrease_bet_button.config(state=tk.DISABLED)
             self.play_again_button.config(state=tk.DISABLED)
+            self.new_game_button.config(state=tk.NORMAL)
             return
 
         self.blackjack_game = Blackjack()
@@ -201,6 +205,15 @@ class BlackjackGUI:
         self.increase_bet_button.config(state=tk.NORMAL)
         self.decrease_bet_button.config(state=tk.NORMAL)
         self.start_game()
+
+    def new_game(self):
+        self.player_money = 100
+        self.player_wins = 0
+        self.dealer_wins = 0
+        self.new_game_button.config(state=tk.DISABLED)
+        self.play_again()
+        self.update_log_display()
+        self.update_betting_ui()
 
 if __name__ == "__main__":
     root = tk.Tk()
