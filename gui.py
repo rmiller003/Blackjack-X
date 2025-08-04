@@ -4,14 +4,14 @@ from blackjack import Blackjack
 import pygame
 import os
 import sys
+import tkinter as tk
 
 def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and PyInstaller """
+    """ Get absolute path to resource (for PyInstaller and dev) """
     try:
-        base_path = sys._MEIPASS  # PyInstaller sets this at runtime
+        base_path = sys._MEIPASS
     except AttributeError:
         base_path = os.path.abspath(".")
-
     return os.path.join(base_path, relative_path)
 
 
