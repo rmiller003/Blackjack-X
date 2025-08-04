@@ -2,20 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 from blackjack import Blackjack
 import pygame
-import os
-import sys
-import tkinter as tk
 
-def resource_path(relative_path):
-    """ Get absolute path to resource (for PyInstaller and dev) """
-    try:
-        base_path = sys._MEIPASS
-    except AttributeError:
-        base_path = os.path.abspath(".")
-    return os.path.join(base_path, relative_path)
-
-# Load background image using absolute path
-
+#Reset 1712
 class BlackjackGUI:
     def __init__(self, master):
         self.master = master
@@ -23,16 +11,14 @@ class BlackjackGUI:
         self.master.geometry("1024x768")
 
         pygame.mixer.init()
-        pygame.mixer.music.load(resource_path("music/jazz.ogg"))
+        pygame.mixer.music.load("music/jazz.ogg")
         pygame.mixer.music.play(loops=-1)
-        cash_sound = pygame.mixer.Sound(resource_path("music/cash-register.ogg"))
-        fail_sound = pygame.mixer.Sound(resource_path("music/fail.ogg"))
+        self.win_sound = pygame.mixer.Sound("music/cash-register.ogg")
+        self.fail_sound = pygame.mixer.Sound("music/fail.ogg")
 
         self.canvas = tk.Canvas(master, width=1024, height=768)
         self.canvas.pack()
-        #self.background_image = tk.PhotoImage(file="background/casino.png")
-        image_path = resource_path("background/casino.png")
-        self.background_image = tk.PhotoImage(file=image_path)
+        self.background_image = tk.PhotoImage(file="background/casino.png")
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_image)
 
         self.title_label = tk.Label(self.canvas, text="Welcome to Miller's Casino", font=("Edwardian Script ITC", 46), fg="white", bg="saddle brown")
