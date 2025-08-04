@@ -1,0 +1,1268 @@
+('C:\\Users\\Robert Miller\\Blackjack-X-1\\build\\gui\\PYZ-00.pyz',
+ [('PIL',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\bisect.py',
+   'PYMODULE'),
+  ('blackjack',
+   'C:\\Users\\Robert Miller\\Blackjack-X-1\\blackjack.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('card', 'C:\\Users\\Robert Miller\\Blackjack-X-1\\card.py', 'PYMODULE'),
+  ('cmd',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\codeop.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('commctrl',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('deck', 'C:\\Users\\Robert Miller\\Blackjack-X-1\\deck.py', 'PYMODULE'),
+  ('dis',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\imp.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\optparse.py',
+   'PYMODULE'),
+  ('packaging',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('player', 'C:\\Users\\Robert Miller\\Blackjack-X-1\\player.py', 'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pygame',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\__init__.py',
+   'PYMODULE'),
+  ('pygame.colordict',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\colordict.py',
+   'PYMODULE'),
+  ('pygame.cursors',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\cursors.py',
+   'PYMODULE'),
+  ('pygame.fastevent',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\fastevent.py',
+   'PYMODULE'),
+  ('pygame.ftfont',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\ftfont.py',
+   'PYMODULE'),
+  ('pygame.macosx',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\macosx.py',
+   'PYMODULE'),
+  ('pygame.pkgdata',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\pkgdata.py',
+   'PYMODULE'),
+  ('pygame.sndarray',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\sndarray.py',
+   'PYMODULE'),
+  ('pygame.sprite',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\sprite.py',
+   'PYMODULE'),
+  ('pygame.surfarray',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\surfarray.py',
+   'PYMODULE'),
+  ('pygame.sysfont',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\sysfont.py',
+   'PYMODULE'),
+  ('pygame.threads',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\threads\\__init__.py',
+   'PYMODULE'),
+  ('pygame.version',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pygame\\version.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pywin',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('pywintypes',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\random.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\runpy.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('win32com',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('winerror',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\robert '
+   'miller\\appdata\\local\\programs\\python\\python39\\lib\\zipimport.py',
+   'PYMODULE')])
