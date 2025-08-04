@@ -10,7 +10,7 @@ class BlackjackGUI:
         self.master.geometry("1024x768")
 
         pygame.mixer.init()
-        pygame.mixer.music.load(resource_path("jazz.ogg"))
+        pygame.mixer.music.load(resource_path("music/jazz.ogg"))
         pygame.mixer.music.play(loops=-1)
         self.win_sound = pygame.mixer.Sound("music/cash-register.ogg")
         self.fail_sound = pygame.mixer.Sound("music/fail.ogg")
