@@ -2,6 +2,18 @@ import tkinter as tk
 from tkinter import messagebox
 from blackjack import Blackjack
 import pygame
+import os
+import sys
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and PyInstaller """
+    try:
+        base_path = sys._MEIPASS  # PyInstaller sets this at runtime
+    except AttributeError:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 
 class BlackjackGUI:
     def __init__(self, master):
