@@ -9,6 +9,7 @@ class BlackjackGUI:
         self.master.title("Blackjack")
         self.master.geometry("1024x768")
 
+        #
         pygame.mixer.init()
         pygame.mixer.music.load(resource_path("music/jazz.ogg"))
         pygame.mixer.music.play(loops=-1)
