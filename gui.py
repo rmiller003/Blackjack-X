@@ -12,9 +12,12 @@ class BlackjackGUI:
 
         pygame.mixer.init()
         pygame.mixer.music.load("music/jazz.ogg")
+        pygame.mixer.music.set_volume(0.3)
         pygame.mixer.music.play(loops=-1)
         self.win_sound = pygame.mixer.Sound("music/cash-register.ogg")
+        self.win_sound.set_volume(1.0)
         self.fail_sound = pygame.mixer.Sound("music/fail.ogg")
+        self.fail_sound.set_volume(1.0)
 
         self.canvas = tk.Canvas(master, width=1024, height=768)
         self.canvas.pack()
